@@ -87,18 +87,45 @@ ul {
 
 .images {
     border-radius: 15px;
-    border-color: #3882f6;
+    border-color: #D60000;
     border-style: solid;
     border-width: 5px;
     width: 250px;
     height: 250px;
-    background-color: white;
+    background-color: gray;
     margin-bottom: 10px;
+    
+}
+
+.warrior {
+    background-image: url(img/warrior.png);
+    background-position: 15% 25%;
+}
+
+.sorcerer {
+    background-image: url(img/mage.png);
+    background-position: 40% 10%;
+}
+
+.taoist {
+    background-image: url(img/conjurer.png);
+    background-position: 27% 0%;
+}
+
+.lancer {
+    background-image: url(img/hunter.png);
+    background-position: 37% 0%;
 }
 
 .text {
     max-width: 250px;
     text-align: center;
+    
+}
+
+.class-name {
+    font-weight: bold;
+    font-size: large;
 }
 
 .container-3 {
@@ -126,7 +153,7 @@ ul {
 .cta {
     display: flex;
     justify-content: space-between;
-    background-color: #3882f6;
+    background-color: #1f2937;
     border-radius: 20px;
     margin: 100px 300px;
     padding: 100px 200px;
@@ -136,6 +163,7 @@ ul {
 .action {
     font-size: 25px;
     font-weight: 900;
+    margin-bottom: 5px;
     
 }
 
@@ -147,7 +175,7 @@ ul {
     border-color: white;
     font-size: 20px;
     font-weight: 700;
-    background-color: #3882f6;
+    background-color: #D70000;
 }
 
 .footer {
